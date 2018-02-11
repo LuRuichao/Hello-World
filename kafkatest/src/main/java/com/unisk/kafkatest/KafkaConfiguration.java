@@ -52,7 +52,7 @@ public class KafkaConfiguration {
 		props.put(ProducerConfig.RETRIES_CONFIG, 0);
 		props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
 		props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer");
-		props.put(ProducerConfig.MAX_BLOCK_MS_CONFIG, 30 * 1000);
+		props.put(ProducerConfig.MAX_BLOCK_MS_CONFIG, 30 * 1000);//
 		return props;
 	}
 
