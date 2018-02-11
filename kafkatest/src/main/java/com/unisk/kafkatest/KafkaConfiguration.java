@@ -18,8 +18,8 @@ import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.util.StringUtils;
 
 
-@Configuration
-@EnableKafka
+//@Configuration
+//@EnableKafka
 public class KafkaConfiguration {
 
 	@Value("${kafka.broker.address}")
